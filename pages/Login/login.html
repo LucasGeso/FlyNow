@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/Login/styles.css">
     <title>FlyNow - Login</title>
 </head>
+
 <body>
-    
+    <header class="encabezado">
+        <div class="titulo">
+            <svg class="icono" viewBox="0 0 24 24">
+                <path
+                    d="M2.5,19h19v2h-19V19z M19.34,15.85c0.8,0.21,1.62-0.26,1.84-1.06c0.21-0.8-0.26-1.62-1.06-1.84l-5.31-1.42l-2.76-9.02 L10.12,2v8.28L5.15,8.95L4.22,6.63L2.77,6.24v5.17L19.34,15.85z" />
+            </svg>
+            <h1>FlyNow</h1>
+        </div>
+        <nav class="menu">
+            <ul class="option">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Vuelos/index.html">Vuelos</a></li>
+                <li><a href="../Ofertas/ofertas.html">Ofertas</a></li>
+                <li><a href="../Contacto/Index.html">Contacto</a></li>
+                <li class="activo"><a href="../Login/login.html"><img src="../../assets/Iconos/cuentaB.svg" alt=""></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form class="login-form" action="" method="post">
+            <label for="E-Mail">E-Mail</label>
+            <input id="E-Mail" type="email" name="E-Mail" placeholder="E-Mail">
+            <label for="contrasena">Contraseña</label>
+            <input id="contrasena" type="password" name="contrasena" placeholder="Contraseña">
+            <div class="botones">
+                <button class="boton" type="button">Aceptar</button>
+                <button class="boton" type="reset">Cancelar</button>
+            </div>
+        </form>
+        <div class="registro-container">
+            <p>No tiene una cuenta. <a href="./registrarse.html">Registrate.</a></p>
+        </div>
+    </main>
+    <footer>FlyNow2026 - Todos los derechos reservados - GrupoX</footer>
 </body>
+
 </html>

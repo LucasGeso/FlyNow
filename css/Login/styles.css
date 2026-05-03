@@ -1,7 +1,5 @@
 main {
-    width: 90%;
     height: 78vh;
-    margin: 0 5%;
     background-color: bisque;
     display: flex;
     justify-content: center;
@@ -39,6 +37,11 @@ input {
 }
 
 .registro-container {
+    display: flex;
+    justify-content: center;
+}
+
+.recuperar-Link {
     display: flex;
     justify-content: center;
 }

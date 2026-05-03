@@ -12,16 +12,13 @@ body {
 }
 
 header {
+    top: 0;
     background-color: white;
-    width: 90%;
-    margin: 0 5%;
     height: 6vh;
-    margin-top: 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px 10px 0 0;
 
 }
 
@@ -65,19 +62,6 @@ a {
 .activo {
     background-color: gray;
     color: white;
-}
-
-.extra {
-    padding-top: 0.5%;
-    background-color: white;
-    width: 95%;
-    height: 15vh;
-    margin-left: 2%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-radius: 0 0 10px 10px;
-
 }
 
 .info {
@@ -127,9 +111,13 @@ a {
 
 footer {
     display: flex;
+    position: fixed;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 200%;
-    padding-top: 10px;
-    margin-left: 3%;
+    font-size: 120%;
+    background-color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }

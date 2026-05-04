@@ -52,6 +52,7 @@ h1 {
     list-style: none;
     font-size: 150%;
     gap: 1em;
+    align-items: center;
 }
 
 a {
@@ -62,6 +63,7 @@ a {
 .activo {
     background-color: gray;
     color: white;
+    border-radius: 3px;
 }
 
 .info {

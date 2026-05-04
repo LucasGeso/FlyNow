@@ -1,12 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>FlyNow - Info</title>
 </head>
 <body>
+    <header class="encabezado">
+        <div class="titulo">
+           <svg class="icono" viewBox="0 0 24 24">
+             <path d="M2.5,19h19v2h-19V19z M19.34,15.85c0.8,0.21,1.62-0.26,1.84-1.06c0.21-0.8-0.26-1.62-1.06-1.84l-5.31-1.42l-2.76-9.02 L10.12,2v8.28L5.15,8.95L4.22,6.63L2.77,6.24v5.17L19.34,15.85z"/>
+            </svg>
+            <h1>FlyNow</h1>
+        </div>
+    
+           <div class="menu">
+            <ul class="option">
+                <li class="activo">Inicio</li>
+                <li><a href="Vuelos/index.html">Vuelos</a></li>
+                <li><a href="Ofertas/ofertas.html">Ofertas</a></li>
+                <li><a href="Contacto/Index.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+            <main>
+        <div class="barra_perfil">
+            <h1 class="perfil">Perfil</h1>
+            <h3 class="resaltado"><a href="info.html">Informacion Personal</a></h3>
+            <h3> <a href="reservas.html">Mis Vuelos Reservados</a></h3>
+        </div>
+        <div class="contenido">
+            <h2>Informacion Personal</h2>
+    <section class="datos_usuario">
+        <h3 class="datos_encabezado">Datos del Usuario</h3>
+
+     <ul>
+        <li>
+         <strong>👤 Nombre Completo:</strong>
+            <span>Juan Pérez</span>
+        </li>
+        <li>
+            <strong>📧 Correo Electrónico:</strong>
+            <span>juan.perez@gmail.com</span>
+        </li>
+        <li>
+        <strong>🪪  DNI:</strong>
+        <span>12.345.678</span>
+        </li>
+    </ul>
+    </section>
+
+    <section class="historial_vuelos">
+        <h2>Historial de Vuelos</h2>
+
+        <div class="tabla_historial">
+        <table class="tabla_vuelos">
+            <tr>
+                <th>Fecha</th>
+                <th>Ruta</th>
+                <th>Aerolinea</th>
+                <th>Estado</th>
+            </tr>
+            <tr>
+                <td>15/05/2026</td>
+                <td>Buenos Aires(BUE) - Madrid(MAD)</td>
+                <td>FlyNow Airlines</td>
+                <td>Completado</td>
+            </tr>
+             <tr>
+                <td>02/04/2026</td>
+                <td>New York(NY) - Paris</td>
+                <td>FlyNow Airlines</td>
+                <td>Completado</td>
+            </tr>
+             <tr>
+                <td>18/3/2026</td>
+                <td>Barcelona(BCN) - Roma</td>
+                <td>FlyNow Airlines</td>
+                <td>Cancelado</td>
+            </tr>
+        </table>
+        </div>
+
+    </section>
+        
+        </div>
+        </main>
+         <footer>FlyNow2026 - Todos los derechos reservados - GrupoX</footer>
     
 </body>
 </html>

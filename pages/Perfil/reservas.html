@@ -1,12 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>FlyNow - Reservas</title>
 </head>
 <body>
+    <header class="encabezado">
+        <div class="titulo">
+           <svg class="icono" viewBox="0 0 24 24">
+             <path d="M2.5,19h19v2h-19V19z M19.34,15.85c0.8,0.21,1.62-0.26,1.84-1.06c0.21-0.8-0.26-1.62-1.06-1.84l-5.31-1.42l-2.76-9.02 L10.12,2v8.28L5.15,8.95L4.22,6.63L2.77,6.24v5.17L19.34,15.85z"/>
+            </svg>
+            <h1>FlyNow</h1>
+        </div>
     
+           <div class="menu">
+            <ul class="option">
+                <li class="activo">Inicio</li>
+                <li><a href="Vuelos/index.html">Vuelos</a></li>
+                <li><a href="Ofertas/ofertas.html">Ofertas</a></li>
+                <li><a href="Contacto/Index.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+        <main>
+        <div class="barra_perfil">
+            <h1 class="perfil">Perfil</h1>
+            <h3><a href="info.html">Informacion Personal</a></h3>
+            <h3 class="resaltado">Mis Vuelos Reservados</h3>
+        </div>
+        <div class="contenido">
+            <h1>Mis vuelos Reservados</h1>
+            <details>
+                <summary>Buenos Aires (BUE) → Madrid (MAD)</summary>
+                <div class="contenido_vuelos">
+             <ul>
+            <div class="info_vuelos">
+               <li><h3>Ida: Buenos Aires(BUE) → Madrid(MAD)</h3></li>
+                <li>Horario: 12:00 - 08:40 (+1) </li>  
+                <li>Duracion:   2h 15min 11/08</li>
+            </div>
+            <div class="info_vuelos">
+               <li><h3>Vuelta: Mad → BuenosAires(BUE)</h3></li>
+               <li>Horario: 18:30 - 06:40 (+1) </li>
+                <li>Duracion: 2h 15min</li>
+            </div>
+            </ul>
+                </div>
+            </details>
+            <details>
+                <summary>New York(NY) → Paris</summary>
+                <div class="contenido_vuelos">
+        <ul>
+            <div class="info_vuelos">
+                <li><h3>Ida: New York(NY) → Paris</h3></li>
+                <li>Horario: 19:30 - 08:45 (+1)</li>
+                <li>Duracion: 7h 15min 15/09</li>
+            </div>
+            <div class="info_vuelos">
+                <li><h3>Vuelta. Paris → New York(NY)</h3></li>
+                <li>11:00 - 13:30</li>
+                <li>Duracion: 8h 30min</li>
+            </div>
+        </ul>
+                </div>
+            </details>
+            <details>
+                <summary>Barcelona → Roma</summary>
+                <div class="contenido_vuelos">
+            <ul>
+            <div class="info_vuelos">
+                <li><h3>Ida: Barcelona → Roma</h3></li>
+                <li>Horario: 09:20 - 11:10</li>
+                <li>Duracion: 1h 50min 10/10</li>
+            </div>
+            <div class="info_vuelos">
+                <li><h3>Vuelta. Roma → Barcelona</h3></li>
+                <li>Horario: 18:40 - 20:30</li>
+                <li>Duracin: 1h 50m 17/10</li>
+            </div>
+                </div>
+            </details>
+            </ul>
+            </div>
+        </main>
+         <footer>FlyNow2026 - Todos los derechos reservados - GrupoX</footer>
 </body>
 </html>

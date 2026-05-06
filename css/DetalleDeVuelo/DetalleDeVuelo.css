@@ -94,10 +94,6 @@ main h2{
     grid-template-rows: 5% 5% 90%;
 }
 
-.asientos-titulo{
-    padding: 0;
-    margin: 0;
-}
 
 .estado-asientos{
     display: flex;
@@ -129,17 +125,46 @@ main h2{
 }
 
 .Ocupado{
-   
     background-color: red;
 }
 
 .Asientos{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
+}
+
+.lugares{
+    justify-items: center;
+    display: grid;
+     grid-template-columns: repeat(4, 1fr);
+}
+
+.ocupado{
+    width: 3rem;
+    height: 3rem;
+    background-color: gray;
+}
+
+.lleno{
+    background-color: red;
+    width: 3rem;
+    height: 3rem;
 }
 
 .vacio{
-    width: 2rem;
-    hei
+    background-color: rgb(40, 40, 250);
+    width: 3rem;
+    height: 3rem;
+}
+
+.vacio:hover{
+    background-color: blue;
+    width: 3rem;
+    height: 3rem;
+    transform: scale(1.1);
+}
+
+.asientos-titulo h3{
+    text-align: center;
+    margin-bottom: 1rem;
 }

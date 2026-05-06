@@ -103,8 +103,23 @@ main {
 
 .info-card .preciovuelo{
     margin-top: .5rem;
+    color: black;
+    font-size: 1.5rem;
 }
 
 .info-titulo a{
   width: fit-content;
+}
+
+
+.info-vuelo:hover{
+    background-color: lightyellow;
+    width: 23rem;
+    height: 8rem;
+    border-radius: 1.5rem;
+    border: .1rem solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transform: scale(1.05);
+    
 }

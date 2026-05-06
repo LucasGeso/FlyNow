@@ -16,6 +16,7 @@ main {
 
 .contenido {
     grid-column: 2/3;
+    padding-right: 1.5rem;
 }
 
 .perfil {

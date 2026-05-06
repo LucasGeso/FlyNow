@@ -1,4 +1,4 @@
-.cuerpo{
+.cuerpo {
     width: 90%;
     height: 73vh;
     margin-left: 5%;
@@ -12,13 +12,15 @@ main {
     height: 73vh;
 }
 
-.vuelos{
+.vuelos {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.vue1, .vue2, .vue3{
+.vue1,
+.vue2,
+.vue3 {
     font-size: 150%;
     height: 15vh;
     display: flex;
@@ -32,7 +34,10 @@ main {
     margin-bottom: 5%;
 }
 
-.porprecio, .tipovuelo, .aerolineas, .subt{
+.porprecio,
+.tipovuelo,
+.aerolineas,
+.subt {
     line-height: 1px;
     margin-left: 10%;
     font-size: 130%;
@@ -44,31 +49,43 @@ main {
     flex-direction: column;
 }
 
-.aerolineas{
+.aerolineas {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
 }
 
-.filtros{
+.filtros {
     display: grid;
+    padding-left: 1rem;
     grid-template-columns: 100%;
     grid-template-rows: 5% 15% 15% 15%;
-    margin-right: 50%;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
-.equipaje{
+.equipaje {
     font-size: 150%;
     line-height: 10vh;
 }
 
-.resaltar{
+.resaltar {
     font-style: oblique;
     font-weight: bold;
     color: rgb(4, 4, 243);
 }
 
-.pol{
+.pol {
     text-decoration: underline;
+}
+
+.imagen-aerolinea {
+    justify-content: flex-start;
+    img {
+        height: 110px;
+        width: 110px;
+    }
 }

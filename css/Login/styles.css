@@ -17,13 +17,8 @@ input {
     border-radius: 1vh;
 }
 
-.botones {
-    margin-top: 2%;
-}
-
 .boton {
-    padding: 2vh;
-    border-radius: 10px;
+    margin-right: 5rem;
 }
 
 .registro-container {
